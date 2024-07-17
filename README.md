@@ -59,7 +59,7 @@ BlendVOCA
 
 And then, run the following command:
 
-```bash
+```
 python optimize_blendshape_coeffs.py
 ```
 This step will take about 2 hours.
@@ -98,9 +98,8 @@ BlendVOCA
 
 ### Training
 
-    ```bash
-    python main.py
-    ```
+     python main.py
+
 
 ### Evaluation
 
@@ -112,9 +111,9 @@ BlendVOCA
      - Run the level
 
 2. Start the audio2face server, you can check your model under BlendVOCA:
-  ```bash
-  python audio2face_server.py --model_name save_512_xx_xx_xx_xx/100_model
-  ```
+     ```bash
+     python audio2face_server.py --model_name save_512_xx_xx_xx_xx/100_model
+     ```
 3. Drive the metahuman Unreal Engine:
 
     ```bash
