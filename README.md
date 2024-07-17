@@ -19,6 +19,7 @@ Due to the license issue of VOCASET, we cannot distribute BlendVOCA directly.
 Instead, you can preprocess `data/blendshape_residuals.pickle` after constructing `BlendVOCA` directory as follows for the simple execution of the script.
 
 ```bash
+mkdir BlendVOCA
 BlendVOCA
    └─ templates
       ├─ ...
