@@ -104,11 +104,11 @@ BlendVOCA
 ### Evaluation
 
 1. Prepare Unreal Engine5(test on UE5.1 and UE5.3) metahuman project
-  1.1 Create default metahuman project in UE5
-  1.2 Move [jsonlivelink](https://drive.google.com/drive/my-drive?hl=zh-cn) plugin into the Plugins of UE5 Animation
-  1.3 Revise the blueprint of the face animation to cancel the default animation and rebuild
-  1.4 Start jsonlivelink
-  1.5 Run the level
+     - Create default metahuman project in UE5
+     - Move [jsonlivelink](https://drive.google.com/drive/my-drive?hl=zh-cn) plugin into the Plugins of UE5 Animation
+     - Revise the blueprint of the face animation to cancel the default animation and rebuild
+     - Start jsonlivelink
+     - Run the level
 
 2. Start the audio2face server, you can check your model under BlendVOCA:
   ```bash
